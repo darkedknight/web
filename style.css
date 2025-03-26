@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #201c7f, #4f55c5, #7973cb, #b3a8d2);
+  }
+  header {
+    background: #7973cb;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  header img {
+    height: 50px;
+    margin-right: 15px;
+  }
+  .scroll-container {
+    background: #4f55c5;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  .scroll-item {
+    display: none;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+  }
+  .scroll-item img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .scroll-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+  }
+  .articles {
+    padding: 20px;
+  }
+  .article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4f55c5;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  .article img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+  }
+  .article-content {
+    flex: 1;
+    color: #201c7f;
+  }
+  .article-page {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background: #b3a8d2;
+    min-height: 80vh;
+  }
+  .article-page h2 {
+    color: #7973cb;
+  }
+  .top-image {
+    width: 60%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .article-text h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #201c7f;
+  }
+  .article-text p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: justify;
+    color: #201c7f;
+  }
+  .section-image {
+    width: 50%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+  }
+  .close-btn {
+    cursor: pointer;
+    background: #201c7f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }

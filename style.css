@@ -5,10 +5,6 @@
 }
 @font-face {
     font-family: 'Doto-SemiBold';
-    src: url('fonts/Chakra_Petch/ChakraPetch-Regular.ttf');
-}
-@font-face {
-    font-family: 'Doto-Regular';
     src: url('fonts/Doto/static/Doto-Thin.ttf');
 }
 
@@ -103,7 +99,6 @@ header img {
     margin: 0 auto 20px;
     text-align: justify;
     color: #201c7f;
-    font-family: 'Doto-Regular'
 }
 .section-image {
     width: 50%;

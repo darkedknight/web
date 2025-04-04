@@ -5,11 +5,11 @@
 }
 @font-face {
     font-family: 'Doto-SemiBold';
-    src: url('fonts/nothing-font-5x7/nothing-font-5x7.ttf');
+    src: url('fonts/Chakra_Petch/ChakraPetch-Regular.ttf');
 }
 @font-face {
     font-family: 'Doto-Regular';
-    src: url('fonts/Doto/Doto-Regular.ttf');
+    src: url('fonts/Doto/static/Doto-Thin.ttf');
 }
 
 body {
